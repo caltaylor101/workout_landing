@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* Finish building the borders for the dives. They aren't responding 100% well... */
+
+.jumbotron {
+	background-color: black; 
+	color:#eee; 
+	
+}
+
+.jumbotron h1 {
+	font-size: 8em; 
+}
+
+.container {
+ padding:0px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.responsive-box-height {
+	display:flex;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 92%;
+	 
+	}
+	.hide2 {
+		visibility: hidden;
+	}
+	
+	.divborder2 {
+	border-bottom: 4px solid black; 
+	
+}
+
+.border-right {
+	border-right:4px solid black;
+}
+.border-left {
+	border-left:4px solid black;
+}
+	
+	.flexing {
+		display:flex;
+	}
+	
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    width: 93%;
+  }
+	
+	.hide3 {
+		visibility:hidden;
+		display:none;
+	}
+	
+	
+	
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 95%;
+	  
+  }
+	
+	
+}
+
+@media (max-width: 768px) {
+	.hide1 {
+		visibility: hidden;
+	}
+	
+	.border-bottom-sm {
+	border-bottom: 2px solid black;
+}
+	.container {
+    width: 83%;
+	 
+	}
+	.btn-size-sm {
+		width:50%;
+		font-size: 1em
+		
+	}
+}
+
+@media (max-width: 992px) {
+	.responsive-box-height {
+		display:inherit;
+	}
+	
+	.hide4 {
+		visibility: hidden;
+		display:none;
+	}
+	
+	
+}
+
+@media (max-width:1200px) {
+	.divborder-top-md {
+	border-top: 2px solid black; 
+}
+.blackaccent .navbar.navbar-default.navbar-inverse .container-fluid {
+}
+
+	
+}
+
+
+
+body {
+	background-color: black;
+}
+
+
+
+.embed-responsive {
+	width:50%;
+	height:50%;
+	margin: auto;
+}
+
+.embed-responsive-custom {
+	padding-bottom:35%;
+}
+
+.text-padding-center {
+	padding-left:5%; 
+	padding-right: 5%;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.col-sm-6-height {
+	height:100%;
+}
+
+.glyphicon {
+	padding-right:5%;
+}
+
+.goldaccent {
+	background-color:#F0BA55;
+	
+}
+.blackaccent {
+	background-color:black;
+}
+
+.divborder {
+	border-left:2px solid black; 
+	border-right:2px solid black;
+}
+
+
+
+.spacing {
+	margin-right:10px; 
+}
+
+.center-margin {
+	text-align: center; 
+}
+
+.blend {
+	background-image: url(../images/Background-Collage.png); 
+	
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height:250px;
+	width:100%; 
+	
+}
+
+.spacing {
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.img-sm {
+	width:20%;
+	height:auto; 
+	border:1px solid #F7A100;
+}
